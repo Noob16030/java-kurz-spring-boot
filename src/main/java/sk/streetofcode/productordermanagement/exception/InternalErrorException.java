@@ -3,9 +3,9 @@ package sk.streetofcode.productordermanagement.exception;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public class ProductNotFoundException extends RuntimeException {
-    public ProductNotFoundException(String message) {
+@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+public class InternalErrorException extends RuntimeException {
+    public InternalErrorException(String message) {
         super(message);
     }
 }

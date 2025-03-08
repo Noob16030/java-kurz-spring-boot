@@ -9,7 +9,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class AddProductRequest {
-    private Integer ProductId;
+public class ProductAmountRequest {
     private Integer amount;
 }

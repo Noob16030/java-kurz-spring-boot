@@ -1,4 +1,4 @@
-package ordersManagementSystem.domain;
+package sk.streetofcode.productordermanagement.domain;
 
 public class Product {
     private Long id;

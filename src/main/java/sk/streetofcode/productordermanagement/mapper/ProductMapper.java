@@ -1,6 +1,6 @@
-package ordersManagementSystem.mapper;
+package sk.streetofcode.productordermanagement.mapper;
 
-import ordersManagementSystem.domain.Product;
+import sk.streetofcode.productordermanagement.domain.Product;
 import org.springframework.stereotype.Component;
 import org.springframework.jdbc.core.RowMapper;
 

@@ -1,4 +1,4 @@
-package sk.streetofcode.productordermanagement.request;
+package sk.streetofcode.productordermanagement.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class AddProductRequest {
-    private Integer ProductId;
+public class Amount {
+    private Integer productId;
     private Integer amount;
 }
